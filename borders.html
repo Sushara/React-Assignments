@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Borders</title>
+</head>
+<body>
+    <div class="container m-2 bg-stone-200 p-5">
+
+        <!--Border--->
+        <h2 class="text-red-400 font-400 mb-5">Border Width & Colors</h2>
+        <div class="row">
+            <div class="grid">
+                <div class="mb-10 inline align-middle border-2 p-2 w-80">border all around</div>
+                <div class="mb-10 inline align-middle border-2 p-2 w-80 border-red-600">colored border</div>
+                <div class="mb-10 inline align-middle border-x-2 p-2 w-80 border-orange-500">border applied to the x-axis</div>
+                <div class="mb-10 inline align-middle border-y-2 p-2 w-80 border-cyan-300">border applied to the y-axis</div>
+                <div class="mb-10 inline align-middle border-l-2 p-2 w-80 border-lime-500">border left</div>
+                <div class="mb-10 inline align-middle border-r-2 p-2 w-80 border-teal-500">border right</div>
+                <div class="mb-10 inline align-middle border-t-2 p-2 w-80 border-pink-400">border top</div>
+                <div class="mb-10 inline align-middle border-b-2 p-2 w-80 border-rose-600">border bottom</div>
+            </div>
+        </div>
+
+        <h2 class="text-red-400 font-400 mb-5">Border Radius</h2>
+        <div class="row">
+            <div class="flex flex-wrap gap-4">
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-none">rounded none</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-sm">rounded sm</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-md">rounded md</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-lg">rounded lg</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-xl">rounded xl</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-3xl">rounded 3xl</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-teal-500 rounded-full">rounded full</div>
+            </div>
+        </div>
+
+        <h2 class="text-red-400 font-400 mb-5">Specific sides</h2>
+        <div class="row">
+            <div class="flex flex-wrap gap-4">
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-t-lg">Top</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-l-lg">Left</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-r-lg">Right</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-b-lg">Bottom</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-tl-lg">Top left</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-tr-lg">Top right</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-bl-lg">Bottom left</div>
+                <div class="mb-10 flex items-center justify-center border-inherit-2 p-2 size-28 bg-pink-500 rounded-br-lg">Bottom right</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

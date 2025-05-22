@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Gradient-shadows</title>
+    
+  </head>
+  <body>
+    <div class="container m-2 bg-gray-100 p-5">
+
+      <!--Gradient--->
+      <h2 class="text-red-400 font-400 mb-5">Gradient</h2>
+      <div class="row">
+        <div class="gradient-boxes bg-linear-to-t from-yellow-200 to-emerald-200 mb-2 h-15 w-70">gradient to top</div>
+        <div class="gradient-boxes bg-linear-to-b from-lime-200 to-rose-400 mb-2 h-15 w-70">gradient to bottom</div>
+        <div class="gradient-boxes bg-linear-to-l from-rose-200 to-gray-600 mb-2 h-15 w-70">gradient to left</div>
+        <div class="gradient-boxes bg-linear-to-r from-yellow-200 to-emerald-200 mb-2 h-15 w-70">gradient to right</div>
+        <div class="gradient-boxes bg-linear-to-br from-lime-200 to-rose-400 mb-2 h-15 w-70">gradient to bottom right</div>
+        <div class="gradient-boxes bg-linear-to-bl from-rose-200 to-gray-600 mb-2 h-15 w-70">gradient to bottom left</div>
+        <div class="gradient-boxes bg-linear-to-tr from-yellow-200 to-emerald-200 mb-2 h-15 w-70">gradient to top right</div>
+        <div class="gradient-boxes bg-linear-to-tl mb-2 h-15 w-70 from-[#85a832] to-[#a8327d]">gradient to top left</div>
+      </div>
+      
+      <!--Shadows--->
+      <h2 class="text-red-400 font-400 mb-5">Shadows</h2>
+      <div class="row flex">
+        <div class="h-25 w-25 mr-5 shadow-cyan-500/50 shadow-lg bg-white rounded-md"> shadow-lg</div>
+        <div class="h-25 w-25 mr-5 shadow-md shadow-blue-500/50 bg-white rounded-md">shadow-md</div>
+        <div class="h-25 w-25 mr-5 bg-white rounded-md inset-shadow-xs inset-shadow-indigo-500">inset-shadow-xs</div>
+        <div class="h-25 w-25 mr-5 bg-white rounded-md ring-2 ring-blue-500/50">ring-shadow</div>
+        <div class="h-25 w-25 mr-5 bg-white rounded-md shadow-[0_35px_35px_rgba(0,0,0,0.25)]">custom shadow</div>
+        <div class="h-25 w-25 mr-5 bg-white rounded-md inset-shadow-2xs inset-shadow-teal-500">inset-shadow-2xs</div>
+      </div>
+    </div>
+  </body>
+</html>

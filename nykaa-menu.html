@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IKEA Menu</title>
+    <title>Nykaa Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,37 +12,46 @@
      <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="container mt-5">
-       <nav class="flex justify-between h-20 px-10 items-center text-black">
-        <img src="https://www.ikea.com/global/assets/logos/brand/ikea.svg" alt="ikea logo">
-        <div class="flex gap-6 items-center">
-            <ul class="hidden gap-6 md:flex">
-                <li class="cursor-pointer hover:underline">Products</li>
-                <li class="cursor-pointer hover:underline">Rooms</li>
-                <li class="cursor-pointer hover:underline">Offers</li>
-                <li class="cursor-pointer hover:underline">Inspiration</li>
-                <li class="cursor-pointer hover:underline">Design/Support</li>
-            </ul>
-            <div class="searchbar flex">
-                <form action="" class="relative bg-gray-100 rounded-full w-100 h-12 items-center bg-[url(./images/loupe.png)] bg-position-[1rem] bg-no-repeat bg-size-[auto_15px]">
-                    <input type="text" class="w-full h-full pl-10 placeholder:text-black" placeholder="What are you looking for?">
-                    <div class="img-holder w-9 h-9 p-2 absolute right-3 top-1.5 rounded-full hover:bg-gray-300 cursor-pointer"><img src="./images/camera.png" alt="camera" class=""></div>
-                </form>
+    <div class="container mt-5 pl-5 pr-5">
+       <nav class="flex justify-between h-20 items-center text-black lg:px-10">
+            
+            <div class="flex items-center">
+                <div class="lg:hidden mr-2">
+                    <i class="fa-solid fa-bars" style="color: black;"></i>
+                </div>
+                <div class="w-20 mr-5">
+                    <img src="./images/nykaa-logo.webp" alt="nykaa logo">
+                </div>
+                <ul class="hidden gap-6 lg:flex">
+                    <li class="cursor-pointer font-semibold hover:text-[#da016a]">Categories</li>
+                    <li class="cursor-pointer font-semibold hover:text-[#da016a]">Brands</li>
+                    <li class="cursor-pointer font-semibold hover:text-[#da016a]">Luxe</li>
+                    <li class="cursor-pointer font-semibold hover:text-[#da016a]">Nykaa Fashion</li>
+                    <li class="cursor-pointer font-semibold hover:text-[#da016a]">Beauty Advice</li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="hidden lg:flex">
+                    <form action="" class="pl-2 pr-2 bg-gray-100 border-1 rounded-md border-black h-12 bg-[url(./images/loupe.png)] bg-position-[1rem] bg-no-repeat bg-size-[auto_15px]">
+                        <input type="text" class="w-full h-full pl-8 pr-8 placeholder:text-gray-500" placeholder="Search on Nykaa">
+                    </form>
+                        
+                </div>
+                <button class="hidden lg:inline-block w-22 h-10 p-2 text-white bg-[#E80071] rounded-md font-semibold hover:bg-[#FF0581]">
+                    Sign in
+                </button>
+              
+                <div class="flex">
+                    <div class="img-holder w-9 h-9 p-2 cursor-pointer">
+                        <img src="./images/bag.png" alt="camera" class="">
+                    </div>
+                    <div class="img-holder w-9 h-9 p-2 rounded-full hover:bg-gray-300 cursor-pointer lg:hidden">
+                        <img src="./images/user.png" alt="camera" class="">
+                    </div>
+                </div>
+                
                 
             </div>
-           <div class="login-bar flex gap-5">
-                <div class="img-holder w-9 h-9 p-2 rounded-full hover:bg-gray-300 cursor-pointer">
-                    <img src="./images/user.png" alt="camera" class="">
-                </div>
-                <div class="img-holder w-9 h-9 p-2 top-1.5 rounded-full hover:bg-gray-300 cursor-pointer">
-                    <img src="./images/heart.png" alt="camera" class="">
-                </div>
-                <div class="img-holder w-9 h-9 p-2 rounded-full hover:bg-gray-300 cursor-pointer">
-                    <img src="./images/bag.png" alt="camera" class="">
-                </div>
-           </div>
-        </div>
-       
     </nav>
     </div>
 </body>

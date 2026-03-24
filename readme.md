@@ -38,3 +38,7 @@
 ### 9. IKEA Menu
 ![img](./screenshots/ikea-menu.png)
 ![img](./screenshots/ikea-menu-mobile.png)
+
+### 9. Nykaa Menu
+![img](./screenshots/nykaa-menu.png)
+![img](./screenshots/nykaa-menu-mobile.png)

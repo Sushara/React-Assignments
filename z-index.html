@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <div class="flex flex-row p-10">
+            <div class="border-2 border-blue-400 rounded-full bg-pink-400 w-15 h-15 text-center -ml-4">05</div>
+            <div class="border-2 border-blue-400 rounded-full bg-pink-400 w-15 h-15 text-center -ml-4 z-10">04</div>
+            <div class="border-2 border-blue-400 rounded-full bg-pink-400 w-15 h-15 text-center -ml-4">03</div>
+            <div class="border-2 border-blue-400 rounded-full bg-pink-400 w-15 h-15 text-center -ml-4 z-10">02</div>
+            <div class="border-2 border-blue-400 rounded-full bg-pink-400 w-15 h-15 text-center -ml-4">01</div>
+        </div>
+        
+        <div class="w-60 h-60 relative">
+            <img src="https://images.unsplash.com/photo-1773746685112-647c4f81344c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8" alt="img1" class="w-full h-full z-40 absolute">
+            <img src="https://images.unsplash.com/photo-1762907559039-1373f553c987?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8" alt="img2" class="absolute top-15 left-15">
+        </div>
+    </main>
+</body>
+</html>

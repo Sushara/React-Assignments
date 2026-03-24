@@ -28,3 +28,12 @@
 ### 6. Navbar
 ![img](./screenshots/navbar-1.png)
 ![img](./screenshots/navbar-2.png)
+
+### 7. Google fonts & Custom color
+![img](./screenshots/google-font-custom-color.png)
+
+### 8. Z-index
+![img](./screenshots/z-index.png)
+
+### 9. IKEA Menu
+![img](./screenshots/ikea-menu.png)

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Positions</title>
+</head>
+<body>
+
+    <div class="container mb-20">
+        <h1>Static positioning</h1>
+        <div class="relative">
+            <div class="static w-100 h-50 border-15 border-purple-100 rounded-md bg-purple-200">
+                <p class="text-purple-600 p-5 font-medium">Static parent</p>
+                <div class="absolute bottom-0 left-0 rounded-md bg-purple-500 p-4">
+                    <p class="text-white font-medium">Absolute child</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mb-20">
+        <h1>Relative positioning</h1>
+        <div class="relative w-100 h-50 border-15 border-sky-100 rounded-md bg-sky-200">
+            <p class="text-sky-600 p-5 font-medium">Relative parent</p>
+            <div class="absolute bottom-0 left-0 rounded-md bg-sky-500 p-4">
+                <p class="text-white font-medium">Absolute child</p>
+            </div>
+            
+        </div>
+    </div>
+
+   
+
+    <div class="container mb-20">
+        <h1>Absolute positioning</h1>
+        <div class="relative w-100 h-50 rounded-lg border border-indigo-100 bg-indigo-100 p-4">
+            <p class="mb-2 text-indigo-700">Relative parent</p>
+            <div class="static bg-indigo-300 flex">
+                <!-- Static parent -->
+                <div class="static flex h-32 flex-col justify-between border border-indigo-100 bg-indigo-300 p-4">
+                    <p>Static child</p>
+                    <div class="flex gap-4">
+                        <div class="absolute top-0 right-0 rounded-lg bg-indigo-500 p-4 text-white shadow-lg">
+                            <p>Absolute sibling</p>
+                        </div>
+                        <div class="rounded-lg bg-red-100 p-4 text-indigo-600 shadow-lg">
+                            <p>Static child</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mb-20">
+        <h1>Fixed positioning</h1>
+        <div class="relative w-100 rounded-lg border border-indigo-100 bg-indigo-100 p-4">
+            <div class="fixed top-0 right-0 left-0 flex items-center bg-gray-50/90">Contacts</div>
+            <div class="flex h-80 flex-col divide-y divide-gray-200 overflow-auto dark:divide-gray-200/5">
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 1</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 2</strong>
+                </div>
+               <div class="flex items-center gap-4 p-4">
+                    <strong>item 3</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 4</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 5</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 6</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 7</strong>
+                </div>
+              
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 8</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 9</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 10</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 11</strong>
+                </div>
+
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 12</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 13</strong>
+                </div>
+                <div class="flex items-center gap-4 p-4">
+                    <strong>item 14</strong>
+                </div>
+                 <div class="flex items-center gap-4 p-4">
+                    <strong>item 15</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

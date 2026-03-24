@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IKEA Menu</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,21 +11,21 @@
      <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="container mt-5 pl-5 pr-5">
-       <nav class="flex justify-between h-20 items-center text-black">
+    <div class="container mt-5">
+       <nav class="flex justify-between h-20 px-10 items-center text-black">
         <img src="https://www.ikea.com/global/assets/logos/brand/ikea.svg" alt="ikea logo">
         <div class="flex gap-6 items-center">
-            <ul class="hidden gap-6 lg:flex">
+            <ul class="hidden gap-6 md:flex">
                 <li class="cursor-pointer hover:underline">Products</li>
                 <li class="cursor-pointer hover:underline">Rooms</li>
                 <li class="cursor-pointer hover:underline">Offers</li>
                 <li class="cursor-pointer hover:underline">Inspiration</li>
                 <li class="cursor-pointer hover:underline">Design/Support</li>
             </ul>
-            <div class="searchbar hidden lg:flex">
-                <form action="" class="flex pl-2 pr-2 bg-gray-100 rounded-full h-12 items-center bg-[url(./images/loupe.png)] bg-position-[1rem] bg-no-repeat bg-size-[auto_15px]">
-                    <input type="text" class="w-full h-full pl-8 pr-8 placeholder:text-black" placeholder="What are you looking for?">
-                    <div class="img-holder w-9 h-9 p-2 mt-1 rounded-full hover:bg-gray-300 cursor-pointer"><img src="./images/camera.png" alt="camera" class=""></div>
+            <div class="searchbar flex">
+                <form action="" class="relative bg-gray-100 rounded-full w-100 h-12 items-center bg-[url(./images/loupe.png)] bg-position-[1rem] bg-no-repeat bg-size-[auto_15px]">
+                    <input type="text" class="w-full h-full pl-10 placeholder:text-black" placeholder="What are you looking for?">
+                    <div class="img-holder w-9 h-9 p-2 absolute right-3 top-1.5 rounded-full hover:bg-gray-300 cursor-pointer"><img src="./images/camera.png" alt="camera" class=""></div>
                 </form>
                 
             </div>
@@ -41,10 +40,6 @@
                     <img src="./images/bag.png" alt="camera" class="">
                 </div>
            </div>
-
-            <div class="lg:hidden">
-                <i class="fa-solid fa-bars" style="color: black;"></i>
-            </div>
         </div>
        
     </nav>

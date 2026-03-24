@@ -37,3 +37,4 @@
 
 ### 9. IKEA Menu
 ![img](./screenshots/ikea-menu.png)
+![img](./screenshots/ikea-menu-mobile.png)

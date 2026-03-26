@@ -46,3 +46,9 @@
 ### 9. Game developer
 ![img](./screenshots/game-developer.png)
 ![img](./screenshots/game-developer-mobile.png)
+
+### 9. Style3
+![img](./screenshots/style3-laptop.png)
+![img](./screenshots/style3-ipad.png)
+![img](./screenshots/style3-tab.png)
+![img](./screenshots/style3-mobile.png)
